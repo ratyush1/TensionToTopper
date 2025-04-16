@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+ <!-- this is for coursework details -->
 </body>
 </html>
