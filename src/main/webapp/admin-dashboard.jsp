@@ -31,13 +31,15 @@
             </li>
             <li class="sidebar-nav-item">
                 <a href="#" class="sidebar-nav-link">
+                
                     <i data-lucide="users"></i>
                     <span>User Management</span>
                 </a>
             </li>
             <li class="sidebar-nav-item">
-                <a href="#" class="sidebar-nav-link">
+                <a href="course-list.jsp" class="sidebar-nav-link">
                     <i data-lucide="book-open"></i>
+                    
                     <span>Course Management</span>
                 </a>
             </li>

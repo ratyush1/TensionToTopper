@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li class="sidebar-nav-item">
-                <a href="course-list.jsp" class="sidebar-nav-link">
+                <a href="courselist.jsp" class="sidebar-nav-link">
                     <i data-lucide="book-open"></i>
                     <span>My Courses</span>
                 </a>
@@ -100,7 +100,7 @@
         <!-- Welcome Section -->
         <div class="welcome-section">
             <div class="welcome-content">
-                <h2>Welcome back</h2>
+                <h2>Welcome </h2>
                 <p>Continue your learning journey. You've completed 68% of your current courses.</p>
                 <div class="welcome-actions">
                     <a href="course-list.jsp" class="btn btn-primary">Continue Learning</a>

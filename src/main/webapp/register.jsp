@@ -101,7 +101,7 @@
                     <label for="role" class="form-label">Role</label>
                     <select id="role" name="role" class="form-input" required>
                         <option value="user">User</option>
-                        <option value="admin">Admin</option>
+                       
                     </select>
                 </div>
                 

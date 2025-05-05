@@ -6,6 +6,7 @@ import jakarta.servlet.http.*;
 import model.User;
 import dao.UserDAO;
 import java.io.IOException;
+import org.mindrot.jbcrypt.*;;
 
 @WebServlet("/register")
 public class register extends HttpServlet {

@@ -2,6 +2,7 @@ package dao;
 
 import model.User;
 import util.DBConnection;
+import org.mindrot.jbcrypt.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -17,7 +18,8 @@ public class UserDAO {
             
             stmt.setString(1, user.getFullName());
             stmt.setString(2, user.getEmail());
-            stmt.setString(3, user.getPassword());
+            String hashedPassword=BCrypt.hashpw(user.getPassword(),BCrypt.gensalt());
+            stmt.setString(3, hashedPassword);
             stmt.setString(4, user.getRole());
             
             int rowsInserted = stmt.executeUpdate();
